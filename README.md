@@ -1,1 +1,3 @@
 # WineDataset
+
+This was the first project for CSCI-B 455 at Indiana University. The goal of this project was to design a Multi-Layer perceptron to classify wine from the wine dataset. Each wine has 13 features and each wine could belong to one of three classes. The baseline accuracy (random guess) was ~33%. This accuarcy for random guess is anticipated because there are three possible classifications. After writing the code for the MLP, the accuracy was increased dramatically to greater than 95%. The final optimized accuracy was 98.3%. This accuracy was found after testing different network structures, as well as timing the training step, as to use the best performing and fastest network architecture.
